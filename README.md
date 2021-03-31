@@ -1,2 +1,2 @@
 # Tribute-Page_7Magic
-This the first project that I every did.
+This is the first project that I ever did.
