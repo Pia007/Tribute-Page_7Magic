@@ -7,6 +7,7 @@
 
 #title {
     font-size: 45px;
+    text-align: center;
 }
 
 img {
@@ -19,12 +20,15 @@ img {
 
 #img-caption {
     font-size: 13px;
+    text-align: center;
+    
 }
 
 #tribute-info {
     font-weight: bold;
     font-size: 21px;
     padding: 1px;
+    text-align: center;
 }
 
 ul {
@@ -32,6 +36,7 @@ ul {
     list-style: inside;
     list-style-type: none;
     padding: 8px;
+    text-align: center;
 }
 
 li {
@@ -54,6 +59,7 @@ iframe {
     margin: auto;
     padding-bottom: 10px;
     border-radius: 15px;
+    text-align: center;
 }
 
 footer {
@@ -61,6 +67,7 @@ footer {
     display: fixed;
     height: 30px;
     background-color: #efefef;
+    text-align: center;
 }
 
 .tribute-link {
