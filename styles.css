@@ -1,40 +1,65 @@
 #main {
     text-align: center;
+    margin:  2rem 3rem 0rem 3rem;
     font-family: 'IBM Plex Serif', serif;
     background-color: rgb(231, 211, 165);
 }
 
 #title {
-    font-size: 45px;
+    font-size: 48px;
+    font-weight: 700;
+    top: 0;
+}
+
+#byline {
+    font-size: 36px;
+    font-weight: 500px;
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 660;
     display: block;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 
 #img-caption {
     font-size: 13px;
 }
 
+.about {
+    line-height: 1.5;
+    padding: 0;
+}
+
 #tribute-info {
     font-weight: bold;
-    font-size: 21px;
-    padding: 1px;
+    margin:0;
+    margin-bottom: 1.25rem;
+}
+h3 {
+    font-size: 28px;
 }
 
 ul {
-    text-align: center;
     list-style: inside;
     list-style-type: none;
-    padding: 8px;
 }
-
-li {
-    padding: 5px;
+li{
+    margin-bottom: 1.25rem;
+    
+}
+.date {
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+p  {
+    padding: 0;
+    margin: 0; 
+    font-size:18px;
+    line-height: 1.5;
 }
 
 a {
@@ -46,22 +71,94 @@ a:hover {
     color: rgb(230, 19, 19);
     text-decoration: underline;
 }
-
+#video {
+    position: relative;
+    padding-top:10px;
+}
 iframe {
     max-width: 100%;
+    height: 300px;
     display: block;
     margin: auto;
     padding-bottom: 10px;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 footer {
-    font-size: 15px;
+    font-size: 13px;
     display: fixed;
-    height: 30px;
-    background-color: #efefef;
+    height: 20px;
 }
 
 .tribute-link {
     font-weight: bold;
 }
+
+
+/* For Smaller Devices */
+@media screen and  (max-width: 47.9em) {
+    #main {
+        text-align: center;
+        margin: 1.5rem;
+    }
+    #title {
+        font-size: 1.75rem;
+    }
+    #byline {
+        font-size: 1.37rem;
+    }
+    img {
+        height: auto;
+    }
+    #img-caption {
+        font-size: .675rem;
+    }
+    .about {
+        margin: 1rem;
+    }
+    h3 {
+        font-size: 1.12rem;
+        line-height: 1.25;
+    }
+    ul {
+        padding: 0;
+    }
+
+    li{
+        margin-bottom: .75rem;
+    }
+    .date {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    p  {
+        padding: 0;
+        margin: 0; 
+        font-size:.875rem;
+        line-height: 1.25;
+    }
+    
+    #video {
+        overflow: hidden;
+        /* 16:9 aspect ratio */
+        margin-top: 2rem;;
+        padding-top: 56.25%;
+        position: relative;
+    }
+      
+    #video iframe {
+         border: 0;
+         height: 100%;
+         left: 0;
+         position: absolute;
+         top: 0;
+         width: 100%;
+    }
+    footer {
+        margin-top: 2rem;
+        font-size: .675rem;
+        display: fixed;
+        height: 2rem;
+    }
+}
+    
